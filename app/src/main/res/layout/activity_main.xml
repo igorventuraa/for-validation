@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/btnImc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculadora IMC" />
+
+    <Button
+        android:id="@+id/btnCombustivel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculadora Combustível" />
+
+    <Button
+        android:id="@+id/btnApresentacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Apresentação" />
+
+    <Button
+        android:id="@+id/btnFechar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fechar App" />
+</LinearLayout>

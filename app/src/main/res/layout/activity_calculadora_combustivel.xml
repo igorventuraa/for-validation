@@ -1,0 +1,49 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edtGasolina"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Preço da Gasolina"
+        android:minHeight="48dp"/>
+
+    <EditText
+        android:id="@+id/edtAlcool"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:hint="Digite o preço do álcool" />
+
+
+
+    <RadioGroup
+        android:id="@+id/rgCombustivel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rbGasolina"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gasolina"
+            android:minHeight="48dp"/>
+
+        <RadioButton
+            android:id="@+id/rbAlcool"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Álcool"
+            android:minHeight="48dp"/>
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/txtResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resultado" />
+
+</LinearLayout>
